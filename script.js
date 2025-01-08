@@ -71,6 +71,7 @@ function displayWeatherInfo(data){
 }
 
 function getWeatherEmoji(weatherId){
+    // groups indicating cloud,rain,sun, etc.
     switch(true){
         case (weatherId >= 200 && weatherId < 300):
             return "⛈";
